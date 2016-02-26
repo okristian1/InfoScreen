@@ -1,0 +1,53 @@
+html {
+    background: #06397a;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+  font-weight: 100;
+  width: 650;
+  color: #FFF;
+}
+
+
+a.btn {
+  line-height: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+
+
+li:hover {
+  background-color: #c3db81;
+
+}
+
+.buttons {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+li {
+  background-color: #98ba3f;
+  width: 180px;
+  margin-top: 5px;
+  font-family: Arial;
+  font-size: 20px;
+  color: #ffffff;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.intro {
+  width: 400px;
+  position: fixed;
+  left: 300px;
+  margin-top: 150px;
+  padding: 10px;
+  font-size: 150%;
+}

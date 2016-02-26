@@ -1,0 +1,61 @@
+html {
+    background: #06397a;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    font-weight: 100;
+
+}
+
+body {
+  color: #FFF;
+}
+
+.table_oversikt {
+  table-layout: fixed;
+  line-height: 38px;
+  margin-left: 20px;
+  font-size: 120%;
+  white-space: nowrap;
+}
+
+.oversikt_time {
+    padding-right: 30px;
+}
+
+.oversikt_romnavn {
+}
+
+.oversikt_mote  {
+  table-layout: fixed;
+  width:370px;
+  display: block;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+
+.logo_oversikt {
+  position: relative;
+  left: 450px;
+  top: 20px;
+}
+
+.img_oversikt {
+  width: 300px;
+  height: 86px;
+}
+
+.meetings_today {
+  color: #BEBEBE;
+  margin-top: 100px;
+  margin-left: 20px;
+  font-size: 200%;
+}
+
+.madeby {
+  position: absolute;
+  bottom: 0px;
+  font-size: 80%;
+  color: #FEF;
+}
