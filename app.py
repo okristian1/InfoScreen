@@ -80,8 +80,6 @@ def cicignon():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
@@ -126,8 +124,6 @@ def tordenskjold():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
                     meetings.append({'company':company,'start': startstr, 'end': endstr})
@@ -172,8 +168,6 @@ def jacobroll():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
                     meetings.append({'company':company,'start': startstr, 'end': endstr})
@@ -217,8 +211,6 @@ def olavtryggvasson():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
@@ -262,8 +254,6 @@ def amfiet():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
@@ -307,8 +297,6 @@ def larstiller():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
@@ -353,8 +341,6 @@ def thomasangell():
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
-                if company == "":
-                    company = (data[row]['CustomerName'])
 
 
                 if int(current_time) > int(start) and int(current_time) < int(end):
