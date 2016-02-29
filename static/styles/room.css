@@ -7,7 +7,8 @@ html {
 
 body {
   font-weight: 100;
-  width: 900px;
+  width: 1024px;
+  height: 600px;
   color: #FFF;
 }
 
@@ -15,7 +16,7 @@ body {
   width: 800px;
   line-height: 38px;
   margin-left: 300px;
-  margin-top: 90px;
+  margin-top: 70px;
   font-size: 250%;
   color: #BEBEBE;
   overflow: visible;
