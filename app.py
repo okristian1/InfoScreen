@@ -45,11 +45,6 @@ def tables():
             else:
                 break
 
-<<<<<<< HEAD
-
-=======
-              
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
     return render_template('oversikt.html', meeting = meeting[::-1])
 
 @app.route('/cicignon')
@@ -77,19 +72,16 @@ def cicignon():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -131,19 +123,16 @@ def tordenskjold():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -185,19 +174,16 @@ def jacobroll():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -238,19 +224,16 @@ def olavtryggvasson():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -291,19 +274,16 @@ def amfiet():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -344,19 +324,16 @@ def larstiller():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -398,19 +375,16 @@ def thomasangell():
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
                 start = time.strftime('%H%M', time.localtime(json_to_standard_start))
-<<<<<<< HEAD
                 starth = time.strftime('%H', time.localtime(json_to_standard_start))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-=======
                 starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -434,8 +408,6 @@ def forside():
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
+
 	app.run(host="127.0.0.1", port = 5000, debug = True)
-=======
 	app.run(host="127.0.0.1", port = 5000)
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
