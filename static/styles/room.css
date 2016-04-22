@@ -1,0 +1,48 @@
+html {
+    background: #06397a;
+    display: block;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body {
+  font-weight: 100;
+  width: 1000px;
+  height: 580px;
+  color: #FFF;
+}
+
+.table_room {
+  width: 715px;
+  line-height: 38px;
+  margin-left: 300px;
+  margin-top: 70px;
+  font-size: 250%;
+  color: #BEBEBE;
+  overflow: visible;
+  white-space: nowrap;
+  display: block;
+}
+
+.table_room_time {
+  color: #FEFEFE;
+  line-height: 100px;
+}
+
+.logo_room {
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+
+.img_room {
+  width: 200px;
+  height: 57px;
+}
+
+
+.name_of_room {
+  font-size: 500%;
+  margin-top: 150px;
+  margin-left: 250px;
+}

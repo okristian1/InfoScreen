@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/room.css') }}">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Thomas Angell</title>
+  </head>
+  <body>
+    <div class="logo_room">
+      <img class= "img_room" src ="http://www.smnkonferanse.no/wp-content/uploads/2015/05/imageedit_19_8682722523.png">
+    </div>
+    <div class="name_of_room">
+    Thomas Angell
+    </div>
+
+<table class="table_room">
+  {% for row in meeting %}
+  <tr>
+    <td>
+      {{ row['company'] }}
+    </td>
+  </tr>
+  <tr>
+    <td class="table_room_time">
+    kl.   {{ row['start'] }} - {{ row['end'] }}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+  </body>
+</html>
