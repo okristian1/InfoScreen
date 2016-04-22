@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/home/locrin/Documents/infoskjerm/bin/python3.5
+=======
+#!/home/locrin/projects/project1/flask/bin/python3
+>>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
 
 # -*- coding: utf-8 -*-
 import re
