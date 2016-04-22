@@ -77,11 +77,11 @@ def cicignon():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -128,11 +128,11 @@ def tordenskjold():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -179,11 +179,11 @@ def jacobroll():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -229,11 +229,11 @@ def olavtryggvasson():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -279,11 +279,11 @@ def amfiet():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -329,11 +329,11 @@ def larstiller():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
@@ -380,11 +380,11 @@ def thomasangell():
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
                 endh = time.strftime('%H', time.localtime(json_to_standard_end))
-                starth = time.strftime('%H', time.localtime(json_to_standard_start+3600))
+                starth = time.strftime('%H', time.localtime(json_to_standard_start+7200))
                 startm = time.strftime('%M', time.localtime(json_to_standard_start))
                 startstr = starth + '.' + startm
                 end = time.strftime('%H%M', time.localtime(json_to_standard_end))
-                endh = time.strftime('%H', time.localtime(json_to_standard_end+3600))
+                endh = time.strftime('%H', time.localtime(json_to_standard_end+7200))
                 endm = time.strftime('%M', time.localtime(json_to_standard_end))
                 endstr = endh + '.' + endm
                 if company == "":
