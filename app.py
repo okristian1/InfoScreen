@@ -37,8 +37,8 @@ def tables():
                 json_to_standard_start = int(data[row]['StartDateTime'][6:16])
                 json_to_standard_end = int(data[row]['EndDateTime'][6:16])
                 company = (data[row]['Company'])
-                start = time.strftime('%H.%M', time.localtime(json_to_standard_start))
-                end = time.strftime('%H.%M', time.localtime(json_to_standard_end))
+                start = time.strftime('%H.%M', time.gmtime(json_to_standard_start+3600))
+                end = time.strftime('%H.%M', time.gmtime(json_to_standard_end+3600))
                 if company == "":
                     company = (data[row]['CustomerName'])
                 meeting.append({'room':room, 'company':company,'start': start, 'end': end})
