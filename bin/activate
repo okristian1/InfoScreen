@@ -2,25 +2,15 @@
 # you cannot run it directly
 
 deactivate () {
-<<<<<<< HEAD
-    # reset old environment variables
-    if [ -n "$_OLD_VIRTUAL_PATH" ] ; then
-=======
-    unset -f pydoc >/dev/null 2>&1
+    unset pydoc
 
     # reset old environment variables
-    # ! [ -z ${VAR+_} ] returns true if VAR is declared at all
-    if ! [ -z "${_OLD_VIRTUAL_PATH+_}" ] ; then
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
+    if [ -n "$_OLD_VIRTUAL_PATH" ] ; then
         PATH="$_OLD_VIRTUAL_PATH"
         export PATH
         unset _OLD_VIRTUAL_PATH
     fi
-<<<<<<< HEAD
     if [ -n "$_OLD_VIRTUAL_PYTHONHOME" ] ; then
-=======
-    if ! [ -z "${_OLD_VIRTUAL_PYTHONHOME+_}" ] ; then
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
         PYTHONHOME="$_OLD_VIRTUAL_PYTHONHOME"
         export PYTHONHOME
         unset _OLD_VIRTUAL_PYTHONHOME
@@ -29,46 +19,27 @@ deactivate () {
     # This should detect bash and zsh, which have a hash command that must
     # be called to get it to forget past commands.  Without forgetting
     # past commands the $PATH changes we made may not be respected
-<<<<<<< HEAD
     if [ -n "$BASH" -o -n "$ZSH_VERSION" ] ; then
-        hash -r
-    fi
-
-    if [ -n "$_OLD_VIRTUAL_PS1" ] ; then
-=======
-    if [ -n "${BASH-}" ] || [ -n "${ZSH_VERSION-}" ] ; then
         hash -r 2>/dev/null
     fi
 
-    if ! [ -z "${_OLD_VIRTUAL_PS1+_}" ] ; then
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
+    if [ -n "$_OLD_VIRTUAL_PS1" ] ; then
         PS1="$_OLD_VIRTUAL_PS1"
         export PS1
         unset _OLD_VIRTUAL_PS1
     fi
 
     unset VIRTUAL_ENV
-<<<<<<< HEAD
     if [ ! "$1" = "nondestructive" ] ; then
-=======
-    if [ ! "${1-}" = "nondestructive" ] ; then
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
     # Self destruct!
         unset -f deactivate
     fi
 }
 
-<<<<<<< HEAD
-# unset irrelavent variables
-deactivate nondestructive
-
-VIRTUAL_ENV="/home/locrin/Documents/infoskjerm"
-=======
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/locrin/projects/project1/flask"
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
+VIRTUAL_ENV="/home/locrin/Documents/infoskjerm"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -76,22 +47,17 @@ PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
 # unset PYTHONHOME if set
-<<<<<<< HEAD
 # this will fail if PYTHONHOME is set to the empty string (which is bad anyway)
 # could use `if (set -u; : $PYTHONHOME) ;` in bash
 if [ -n "$PYTHONHOME" ] ; then
-=======
-if ! [ -z "${PYTHONHOME+_}" ] ; then
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
     _OLD_VIRTUAL_PYTHONHOME="$PYTHONHOME"
     unset PYTHONHOME
 fi
 
-<<<<<<< HEAD
 if [ -z "$VIRTUAL_ENV_DISABLE_PROMPT" ] ; then
     _OLD_VIRTUAL_PS1="$PS1"
-    if [ "x(infoskjerm) " != x ] ; then
-	PS1="(infoskjerm) $PS1"
+    if [ "x" != x ] ; then
+        PS1="$PS1"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
@@ -100,36 +66,15 @@ if [ -z "$VIRTUAL_ENV_DISABLE_PROMPT" ] ; then
     else
         PS1="(`basename \"$VIRTUAL_ENV\"`)$PS1"
     fi
-=======
-if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT-}" ] ; then
-    _OLD_VIRTUAL_PS1="$PS1"
-    if [ "x" != x ] ; then
-        PS1="$PS1"
-    else
-        PS1="(`basename \"$VIRTUAL_ENV\"`) $PS1"
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
     fi
     export PS1
 fi
 
-<<<<<<< HEAD
+alias pydoc="python -m pydoc"
+
 # This should detect bash and zsh, which have a hash command that must
 # be called to get it to forget past commands.  Without forgetting
 # past commands the $PATH changes we made may not be respected
 if [ -n "$BASH" -o -n "$ZSH_VERSION" ] ; then
-    hash -r
-=======
-# Make sure to unalias pydoc if it's already there
-alias pydoc 2>/dev/null >/dev/null && unalias pydoc
-
-pydoc () {
-    python -m pydoc "$@"
-}
-
-# This should detect bash and zsh, which have a hash command that must
-# be called to get it to forget past commands.  Without forgetting
-# past commands the $PATH changes we made may not be respected
-if [ -n "${BASH-}" ] || [ -n "${ZSH_VERSION-}" ] ; then
     hash -r 2>/dev/null
->>>>>>> 47aae85e66156039fe4ab4775101fc4fa9e8376b
 fi

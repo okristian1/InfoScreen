@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+    # -*- coding: utf-8 -*-
 import os
 from flask import Flask, session, render_template
 import requests
@@ -19,7 +19,7 @@ app = Flask(__name__)
 @app.route('/')
 def tables():
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -55,7 +55,7 @@ def cicignon():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -106,7 +106,7 @@ def tordenskjold():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -157,7 +157,7 @@ def jacobroll():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -207,7 +207,7 @@ def olavtryggvasson():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -257,7 +257,7 @@ def amfiet():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -307,7 +307,7 @@ def larstiller():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
@@ -358,7 +358,7 @@ def thomasangell():
     current_time = datetime.now().strftime('%H%M')
 
     response = urlopen(
-    'https://sparbank1.2book.se/Version4_30_18/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
+    'https://sparbank1.2book.se/simpleIntegration/GetCreaJson?RestaurantId=4&dateTime=' + (
     time.strftime("%Y-%m-%d")))
     reader = codecs.getreader("utf-8")
     data = json.load(reader(response))
